@@ -1,0 +1,11 @@
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.pdb
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.AssemblyReference.cache
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.Calculator.resources
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.Properties.Resources.resources
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.GenerateResource.cache
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe
+C:\Users\JakePriestman\source\repos\app-ideas\Projects\1 - Beginner\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.pdb

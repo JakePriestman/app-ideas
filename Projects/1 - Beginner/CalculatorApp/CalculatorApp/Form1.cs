@@ -11,13 +11,16 @@ namespace CalculatorApp
 		{
 			InitializeComponent();
 			this.Width = 350;
-			this.Height = 550;
+			this.Height = 610;
 			this.Text = "Calculator";
 		}
 
 		private void NUMBER_Click(object sender, EventArgs e)
 		{
-			this.TEXT.Text += (sender as Button).Text;
+			if (this.TEXT.Text.Length < 8)
+			{
+				this.TEXT.Text += (sender as Button).Text; 
+			}
 		}
 
 		private void DIVIDE_Click(object sender, EventArgs e)
@@ -103,7 +106,7 @@ namespace CalculatorApp
 			}
 			catch(Exception ex)
 			{
-				throw;
+				this.TEXT.Text = "ERR";
 			}
 		}
 
@@ -137,5 +140,13 @@ namespace CalculatorApp
 				TEXT.Text += ")";
 			}
 		}
-	}
+
+        private void PLUSMINUS_Click(object sender, EventArgs e)
+        {
+			if(this.TEXT.Text.Length < 8 && this.TEXT.Text != "")
+			{
+				this.TEXT.Text = Convert.ToString(Convert.ToInt32(this.TEXT.Text) * -1);
+			}
+        }
+    }
 }
