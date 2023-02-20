@@ -1,0 +1,100 @@
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 10%;
+}
+hr{
+    color: white;
+    width: 100%;
+}
+.float-parent1 {
+    justify-content: center;
+    padding-bottom: 30%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 1%;
+    border: solid 5px grey;
+    padding-top: 0;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+
+.float-parent {
+    justify-content: center;
+    padding-bottom: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 1%;
+    border: solid 5px grey;
+    padding-top:0;
+    border-radius: 10px;
+    background-color: grey;
+}
+div#float-child-left {
+    width: 30%;
+    float: left;
+    margin-top: 7%;
+}
+
+div#float-child-right {
+    margin-top: -1%;
+    width: 30%;
+    float: right;
+    color: white;
+    padding: 10%;
+    text-align: center;
+    background-color: orange;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input {
+    display: block;
+}
+
+form {
+    position: center;
+}
+
+label {
+    color: white;
+}
+
+body {
+    background-color: darkgray;
+}
+
+
+code{
+    color: lime;
+}
+
+div#code {
+    
+    background-color: black;
+    padding: 5%;
+    width: 35%;
+    float: left;
+    border-radius: 10px;
+}
+button#CTC {
+    margin-top: 5%;
+    background: url(../icons8-copy-to-clipboard-40.png);
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+a#complex{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding :10px;
+    text-decoration: none;
+}

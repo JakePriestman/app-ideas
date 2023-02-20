@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Full-Control";
+}
+
+<h1>Border Radius Previewer</h1>
+<hr/>
+<a id="complex" asp-controller="Home" asp-action="Index">Simple</a>
+<div class="float-parent1">
+    <div id="float-child-left">
+        <form>
+            <label for="top-left">border-radius-top-left</label>
+            <input type="text" id="top-left" name="top-left" placeholder="px" onchange="TopLeft1()">
+            <input type="text" id="top-left2nd" name="top-left" placeholder="px" onchange="TopLeft1()">
+            <label for="top-right">border-radius-top-right</label>
+            <input type="text" id="top-right" name="top-right" placeholder="px" onchange="TopRight()">
+            <input type="text" id="top-right2nd" name="top-right" placeholder="px" onchange="TopRight()">
+            <label for="bottom-left">border-radius-bottom-left</label>
+            <input type="text" id="bottom-left" name="bottom-left" placeholder="px"onchange="BottomLeft()">
+            <input type="text" id="bottom-left2nd" name="bottom-left" placeholder="px" onchange="BottomLeft()">
+            <label for="bottom-right">border-radius-bottom-right</label>
+            <input type="text" id="bottom-right" name="bottom-right" placeholder="px" onchange="BottomRight()">
+            <input type="text" id="bottom-right2nd" name="bottom-right" placeholder="px" onchange="BottomRight()">
+        </form>
+    </div>
+    <div id="buttons">
+        <button id="CTC" onclick="CopyToClipboard()"></button>
+    </div>
+    <div id="code">
+
+        <code>
+            border-top-left-radius: <em id="topLeft">0 px</em> <em id="topLeft2">0 px;</em>
+            border-top-right-radius: <em id="topRight">0 px</em> <em id="topRight2">0 px;</em>
+            border-bottom-left-radius: <em id="bottomLeft">0 px</em> <em id="bottomLeft2">0 px;</em>
+            border-bottom-right-radius: <em id="bottomRight">0 px</em> <em id="bottomRight2">0 px;</em>
+        </code>
+    </div>
+
+    <div id="float-child-right">
+        Border radius!
+    </div>
+
+ 
+</div>
